@@ -5,11 +5,19 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{EBC1AAC8-CF3F-48E9-B755-3171003C7A85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AbramushkinAN.Sprint0.Task0.V0", "Tyuiu.AbramushkinAN.Sprint0.Task0.V0\Tyuiu.AbramushkinAN.Sprint0.Task0.V0.csproj", "{596D08C6-2D28-4E51-9C28-65D01FAE8F65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.AbramushkinAN.Sprint0.Task0.V0", "Tyuiu.AbramushkinAN.Sprint0.Task0.V0\Tyuiu.AbramushkinAN.Sprint0.Task0.V0.csproj", "{596D08C6-2D28-4E51-9C28-65D01FAE8F65}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{D4953AAE-5167-43FB-A2B7-70B6074EF449}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AbramushkinAN.Sprint0.Task1.V0", "Tyuiu.AbramushkinAN.Sprint0.Task1.V0\Tyuiu.AbramushkinAN.Sprint0.Task1.V0.csproj", "{F3440CA2-23E9-4554-AE52-967476FEB117}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.AbramushkinAN.Sprint0.Task1.V0", "Tyuiu.AbramushkinAN.Sprint0.Task1.V0\Tyuiu.AbramushkinAN.Sprint0.Task1.V0.csproj", "{F3440CA2-23E9-4554-AE52-967476FEB117}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{B4D4523A-291C-4546-89EB-4374CF8ED6B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AbramushkinAN.Sprint0.Task2.V0", "Tyuiu.AbramushkinAN.Sprint0.Task2.V0\Tyuiu.AbramushkinAN.Sprint0.Task2.V0.csproj", "{EFA1D57F-5A61-4A97-B52B-F94CE39AAAA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AbramushkinAN.Sprint0.Task2.V0.Lib", "Tyuiu.AbramushkinAN.Sprint0.Task2.V0.Lib\Tyuiu.AbramushkinAN.Sprint0.Task2.V0.Lib.csproj", "{9523385E-31B2-4336-9F7F-FFEE7BFB5AE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.AbramushkinAN.Sprint0.Task2.V0.Test", "Tyuiu.AbramushkinAN.Sprint0.Task2.V0.Test\Tyuiu.AbramushkinAN.Sprint0.Task2.V0.Test.csproj", "{4F4D6A52-F34D-4A98-9AEB-C8C1DED55BC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +33,18 @@ Global
 		{F3440CA2-23E9-4554-AE52-967476FEB117}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3440CA2-23E9-4554-AE52-967476FEB117}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3440CA2-23E9-4554-AE52-967476FEB117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA1D57F-5A61-4A97-B52B-F94CE39AAAA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA1D57F-5A61-4A97-B52B-F94CE39AAAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA1D57F-5A61-4A97-B52B-F94CE39AAAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA1D57F-5A61-4A97-B52B-F94CE39AAAA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9523385E-31B2-4336-9F7F-FFEE7BFB5AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9523385E-31B2-4336-9F7F-FFEE7BFB5AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9523385E-31B2-4336-9F7F-FFEE7BFB5AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9523385E-31B2-4336-9F7F-FFEE7BFB5AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F4D6A52-F34D-4A98-9AEB-C8C1DED55BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F4D6A52-F34D-4A98-9AEB-C8C1DED55BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F4D6A52-F34D-4A98-9AEB-C8C1DED55BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F4D6A52-F34D-4A98-9AEB-C8C1DED55BC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +52,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{596D08C6-2D28-4E51-9C28-65D01FAE8F65} = {EBC1AAC8-CF3F-48E9-B755-3171003C7A85}
 		{F3440CA2-23E9-4554-AE52-967476FEB117} = {D4953AAE-5167-43FB-A2B7-70B6074EF449}
+		{EFA1D57F-5A61-4A97-B52B-F94CE39AAAA6} = {B4D4523A-291C-4546-89EB-4374CF8ED6B3}
+		{9523385E-31B2-4336-9F7F-FFEE7BFB5AE0} = {B4D4523A-291C-4546-89EB-4374CF8ED6B3}
+		{4F4D6A52-F34D-4A98-9AEB-C8C1DED55BC7} = {B4D4523A-291C-4546-89EB-4374CF8ED6B3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1404BB22-6C01-4054-9E1E-96F5F5339A81}
