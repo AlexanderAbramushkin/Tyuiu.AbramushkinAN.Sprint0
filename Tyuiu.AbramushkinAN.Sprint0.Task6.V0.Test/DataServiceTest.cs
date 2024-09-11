@@ -16,7 +16,7 @@ namespace Tyuiu.AbramushkinAN.Sprint0.Task6.V0.Test
         public void CheckSubstractionArrayValid()
         {
             var numbers = new int[] { 1, 2, 3, 4, 5 };
-            var res = DataService.SubstractionArray(numbers);
+            var res = DataService.SubtractionArray(numbers);
             Assert.AreEqual(-15, res);
         }
 
